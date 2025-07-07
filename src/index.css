@@ -1,0 +1,67 @@
+section.square,
+section.pill {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+span {
+  padding: 2px 12px 2px 12px;
+  font-family: Karla, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+span.pill {
+  border-radius: 12px;
+}
+
+span.square {
+  border-radius: 4px;
+}
+
+.gray-square,
+.gray-pill {
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+.red-square,
+.red-pill {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+.yellow-square,
+.yellow-pill {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+.green-square,
+.green-pill {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+.blue-square,
+.blue-pill {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.indigo-square,
+.indigo-pill {
+  background-color: #e0e7ff;
+  color: #3730a3;
+}
+
+.purple-square,
+.purple-pill {
+  background-color: #ede9fe;
+  color: #5b21b6;
+}
+
+.pink-square,
+.pink-pill {
+  background-color: #fce7f3;
+  color: #9d174d;
+}
